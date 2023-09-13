@@ -16,16 +16,6 @@ Create a program that can take a text file formatted as follows:
 ```
 To return its 3D representation of an isometric view in a graphics window at *1920x1080*.
 
-### Features
-* The map can be moved with the arrows.
-* The terrain height can also be manually adjusted as needed during program execution with the keyboard:
-  - Key 3 is used to increase the height of the relief.
-  - Key 2 is used to decrease the height.
-* Finally, it is possible to zoom in on the map at the desired location using the keyboard:
-  - Key 1 is used to zoom.
-  - Key 0 is used to zoom out.
-* There is also a special mode, but you'll have to find it yourself!
-
 ### Runtime Arguments
 The program compiled with the Makefile is called **fdf**.
 When you run it through a command line call, you can pass it *an argument*.
